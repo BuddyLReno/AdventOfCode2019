@@ -1,0 +1,11 @@
+/Users/buddy.reno/RiderProjects/Advent of Code/Advent of Code 2019/bin/Debug/netcoreapp3.0/Advent of Code 2019
+/Users/buddy.reno/RiderProjects/Advent of Code/Advent of Code 2019/bin/Debug/netcoreapp3.0/Advent of Code 2019.deps.json
+/Users/buddy.reno/RiderProjects/Advent of Code/Advent of Code 2019/bin/Debug/netcoreapp3.0/Advent of Code 2019.runtimeconfig.json
+/Users/buddy.reno/RiderProjects/Advent of Code/Advent of Code 2019/bin/Debug/netcoreapp3.0/Advent of Code 2019.runtimeconfig.dev.json
+/Users/buddy.reno/RiderProjects/Advent of Code/Advent of Code 2019/bin/Debug/netcoreapp3.0/Advent of Code 2019.dll
+/Users/buddy.reno/RiderProjects/Advent of Code/Advent of Code 2019/bin/Debug/netcoreapp3.0/Advent of Code 2019.pdb
+/Users/buddy.reno/RiderProjects/Advent of Code/Advent of Code 2019/obj/Debug/netcoreapp3.0/Advent of Code 2019.csprojAssemblyReference.cache
+/Users/buddy.reno/RiderProjects/Advent of Code/Advent of Code 2019/obj/Debug/netcoreapp3.0/Advent of Code 2019.AssemblyInfoInputs.cache
+/Users/buddy.reno/RiderProjects/Advent of Code/Advent of Code 2019/obj/Debug/netcoreapp3.0/Advent of Code 2019.AssemblyInfo.cs
+/Users/buddy.reno/RiderProjects/Advent of Code/Advent of Code 2019/obj/Debug/netcoreapp3.0/Advent of Code 2019.dll
+/Users/buddy.reno/RiderProjects/Advent of Code/Advent of Code 2019/obj/Debug/netcoreapp3.0/Advent of Code 2019.pdb
