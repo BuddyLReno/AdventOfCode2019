@@ -10,11 +10,11 @@ namespace AdventOfCode2019
     {
         class Day1
         {
-            private const string filePath = "Inputs/AOCD1.txt";
+            private const string day1FilePath = "Inputs/AOCD1.txt";
 
             public static string Run()
             {
-                var moduleMassList = ReadFile(filePath);
+                var moduleMassList = ReadFile(day1FilePath);
                 var estimatedFuel = moduleMassList.Sum(CalculateFuel);
                 return $"Estimated fuel: { estimatedFuel }";
             }
