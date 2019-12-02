@@ -1,28 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "/Users/buddy.reno/RiderProjects/Advent of Code/Advent of Code 2019/Advent of Code 2019.csproj": {}
+    "/Users/max.veldink/Code/AdventOfCode2019/Advent of Code 2019/Advent of Code 2019.csproj": {}
   },
   "projects": {
-    "/Users/buddy.reno/RiderProjects/Advent of Code/Advent of Code 2019/Advent of Code 2019.csproj": {
+    "/Users/max.veldink/Code/AdventOfCode2019/Advent of Code 2019/Advent of Code 2019.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/buddy.reno/RiderProjects/Advent of Code/Advent of Code 2019/Advent of Code 2019.csproj",
+        "projectUniqueName": "/Users/max.veldink/Code/AdventOfCode2019/Advent of Code 2019/Advent of Code 2019.csproj",
         "projectName": "Advent of Code 2019",
-        "projectPath": "/Users/buddy.reno/RiderProjects/Advent of Code/Advent of Code 2019/Advent of Code 2019.csproj",
-        "packagesPath": "/Users/buddy.reno/.nuget/packages/",
-        "outputPath": "/Users/buddy.reno/RiderProjects/Advent of Code/Advent of Code 2019/obj/",
+        "projectPath": "/Users/max.veldink/Code/AdventOfCode2019/Advent of Code 2019/Advent of Code 2019.csproj",
+        "packagesPath": "/Users/max.veldink/.nuget/packages/",
+        "outputPath": "/Users/max.veldink/Code/AdventOfCode2019/Advent of Code 2019/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/buddy.reno/.config/NuGet/NuGet.Config"
+          "/Users/max.veldink/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
         ],
         "sources": {
+          "/Users/max.veldink/Code/access-control-xamarin/Nugets": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -47,7 +48,13 @@
             "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }
