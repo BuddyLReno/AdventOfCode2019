@@ -6,4 +6,7 @@
         <RootNamespace>Advent_of_Code_2019</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Days\" />
+    </ItemGroup>
 </Project>
