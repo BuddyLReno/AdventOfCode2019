@@ -12,14 +12,28 @@ namespace AdventOfCode2019
         {
             private const string day1FilePath = "Inputs/AOCD1.txt";
 
-            public static string Run()
+            public static string RunPart1()
             {
                 var moduleMassList = ReadFile(day1FilePath);
                 var estimatedFuel = moduleMassList.Sum(CalculateFuel);
                 return $"Estimated fuel: { estimatedFuel }";
             }
 
+            public static string RunPart2()
+            {
+                var moduleMassList = ReadFile(day1FilePath);
+                var estimatedFuel = moduleMassList.Sum(CalculateFuelWithRequirement);
+                return $"Estimated fuel: { estimatedFuel }";
+            }
+
             private static int CalculateFuel(string input)
+            {
+                var mass = double.Parse(input);
+                var fuel = FuelAlgorithm(mass);
+                return (int)fuel;
+            }
+
+            private static int CalculateFuelWithRequirement(string input)
             {
                 var mass = double.Parse(input);
                 var fuel = FuelAlgorithm(mass);
