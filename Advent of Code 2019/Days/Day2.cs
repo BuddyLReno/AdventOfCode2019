@@ -4,7 +4,7 @@ namespace AdventOfCode2019.Days
 {
     public class Day2 : Day
     {
-        private const string day1FilePath = "Inputs/AOCD1.txt";
+        private const string day2FilePath = "Inputs/AOCD2.txt";
 
         private enum OpCode
         {
@@ -15,7 +15,7 @@ namespace AdventOfCode2019.Days
 
         public static string RunPart1()
         {
-            return Enum.Parse<OpCode>("99").ToString();
+            return String.Join("\n", ReadFile(day2FilePath));
         }
     }
 }
