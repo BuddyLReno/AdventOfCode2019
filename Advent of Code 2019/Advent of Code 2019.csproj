@@ -9,4 +9,7 @@
     <ItemGroup>
       <Folder Include="Days\" />
     </ItemGroup>
+    <ItemGroup>
+      <Compile Remove="Days\EmptyClass.cs" />
+    </ItemGroup>
 </Project>
