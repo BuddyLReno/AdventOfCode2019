@@ -1,11 +1,23 @@
 ﻿using System;
-namespace Advent_of_Code_2019.Days
+using System.Collections.Generic;
+
+namespace AdventOfCode2019
 {
-    public class Day2
+    namespace Days
     {
-        public static string RunPart1()
+        public class Day2
         {
-            return "";
+            private enum OpCode
+            {
+                Add = 1,
+                Multiply = 2,
+                Halt = 99
+            };
+
+            public static string RunPart1()
+            {
+                return Enum.Parse<OpCode>("99").ToString();
+            }
         }
     }
 }
