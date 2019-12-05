@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace AdventOfCode2019.Days
 {
@@ -15,7 +16,21 @@ namespace AdventOfCode2019.Days
 
         public static string RunPart1()
         {
-            return String.Join("\n", ReadFile(day2FilePath));
+            var inputs = ReadFile(day2FilePath).First().Split(",");
+            int currentIndex = 0;
+            OpCode currentOpCode = Enum.Parse<OpCode>(inputs[currentIndex]);
+
+            while (currentOpCode != OpCode.Halt)
+            {
+                if (currentOpCode == OpCode.Add)
+                {
+                    var leftHand = inputs[int.Parse(inputs[currentIndex + 1])];
+                    var rightHand = inputs[int.Parse(inputs[currentIndex + 2])];
+                }
+            }
+
+            return "";
+            
         }
     }
 }
