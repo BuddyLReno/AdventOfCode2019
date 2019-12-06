@@ -7,7 +7,7 @@ namespace AdventOfCode2019
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(Day2.RunPart1());
+            Day2.ExecuteDay();
             Console.ReadLine();
         }
     }
