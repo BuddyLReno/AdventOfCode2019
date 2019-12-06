@@ -8,20 +8,22 @@ namespace AdventOfCode2019.Days
     {
         private const string day2FilePath = "Inputs/AOCD2.txt";
 
-        public static void ExecuteDay()
+        public static string RunPart1()
         {
-            var instructions = ReadFile(day2FilePath)
-                .First()
-                .Split(',')
-                .Select(s => Convert.ToInt32(s))
-                .ToList();
-
-            var partA = new List<int>(instructions);
-            partA[1] = 12;
-            partA[2] = 2;
+            var instructions = LoadInstructions();
+            var partA = new List<int>(instructions)
+            {
+                [1] = 12,
+                [2] = 2
+            };
 
             RunProgram(partA);
-            Console.WriteLine(partA[0].ToString());
+            return partA[0].ToString();
+        }
+
+        public static string RunPart2()
+        {
+            var instructions = LoadInstructions();
 
             for (int noun = 0; noun < 100; noun++)
                 for (int verb = 0; verb < 100; verb++)
@@ -33,13 +35,23 @@ namespace AdventOfCode2019.Days
                     RunProgram(partB);
                     if (partB[0] == 19690720)
                     {
-                        var partBAnswer = (noun * 100 + verb).ToString();
-                        return;
+                        return (noun * 100 + verb).ToString();
                     }
                 }
+
+            return "Could not find answer.";
         }
 
-        static void RunProgram(List<int> instructions)
+        private static List<Int32> LoadInstructions()
+        {
+            return ReadFile(day2FilePath)
+                .First()
+                .Split(',')
+                .Select(s => Convert.ToInt32(s))
+                .ToList();
+        }
+
+        private static void RunProgram(List<int> instructions)
         {
             var ip = 0;
             while (ip < instructions.Count && instructions[ip] != 99)
